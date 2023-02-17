@@ -13,6 +13,41 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.1.1
+  intl: ^0.18.0
+  cached_network_image: ^3.2.3
+
+
+
+  flutter_native_splash: ^2.2.17
+  country_picker: ^2.0.19
+  image_picker: ^0.8.6+1
+  firebase_auth: ^4.2.2
+  firebase_core: ^2.6.0
+  firebase_storage: ^11.0.12
+  cloud_firestore: ^4.4.1
+  photo_manager: ^2.5.2
+  firebase_database: ^10.0.13
+  flutter_contacts: ^1.1.6
+  url_launcher: ^6.1.9
+  custom_clippers: ^2.0.0
+  shimmer: ^2.0.0
+
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#111B21"
+  image: assets/images/splash_light.png
+  image_dark : assets/images/splash_dark.png
+  android_12 :
+    color: "#FFFFFF"
+    color_dark: "#111B21"
+    image: assets/images/splash_light.png
+    image_dark : assets/images/splash_dark.png 
+    icon_background_color: "#FFFFFF"
+    icon_background_color_DARK: "#111B21"
+
+
 
 dev_dependencies:
   flutter_test:
